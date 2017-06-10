@@ -4,8 +4,8 @@
 
 #disneyland {
   display: none;
+  
 }
-
 
 #hawaii {
   display: none;
@@ -13,4 +13,20 @@
 
 #house {
   display: none;
+}
+
+h1 {
+  color: teal;
+  text-align: center;
+  font-style: oblique;
+}
+
+h4 {
+  color: red;
+  font-weight: bold;
+}
+
+h5 {
+  color: green;
+  font-weight: bolder;
 }
