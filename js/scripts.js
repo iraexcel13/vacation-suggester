@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  $("#button").click(function() {
+  $("#button").click(function(event) {
+
 
     var first = $("#first1").val();
     var age = $("#age1").val();
@@ -18,7 +19,7 @@ $(document).ready(function() {
       $("#lasvegas").show();
     }
 
-    else if (first === "No" && age === "21 and over" && kids === "Yes" && beach === "Yes" && activity === "Sightseeing" &&
+    else if (first === "Yes" || "No" && age === "21 and over" && kids === "Yes" && beach === "Yes" && activity === "Sightseeing" &&
     days === "5 days") {
       $("#hawaii").show();
     }
@@ -27,7 +28,7 @@ $(document).ready(function() {
       $("#house").show();
     }
 
-    
+    event.preventDefault();
   });
 
 });

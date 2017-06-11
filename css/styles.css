@@ -4,7 +4,7 @@
 
 #disneyland {
   display: none;
-  
+
 }
 
 #hawaii {
@@ -29,4 +29,15 @@ h4 {
 h5 {
   color: green;
   font-weight: bolder;
+}
+
+h3 {
+  color: green;
+  font-weight: 300;
+}
+
+p {
+  color: green;
+  font-size: 30px;
+  font-style: oblique;
 }
